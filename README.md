@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+---
+
+**Task completed.** This project (IBuiltThis) is a small full-stack app built with **Next.js** (App Router), **Supabase Auth** (email sign-in/sign-up), **Supabase Storage** (profile avatar upload), **shadcn/ui** (Card, Button, Input, Avatar, Dropdown, Badge, Separator, etc.), **Zod** and **React Hook Form** for form validation, **next-themes** for light/dark toggle, and **TypeScript**. It includes a landing page, profile page with avatar upload, About page, and theme switcher.
+
+---
+
 ## Getting Started
 
 First, run the development server:
