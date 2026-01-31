@@ -1,42 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IBuiltThis
 
----
+A full-stack web application built with modern technologies for user authentication and profile management.
 
-**Task completed.** This project (IBuiltThis) is a small full-stack app built with **Next.js** (App Router), **Supabase Auth** (email sign-in/sign-up), **Supabase Storage** (profile avatar upload), **shadcn/ui** (Card, Button, Input, Avatar, Dropdown, Badge, Separator, etc.), **Zod** and **React Hook Form** for form validation, **next-themes** for light/dark toggle, and **TypeScript**. It includes a landing page, profile page with avatar upload, About page, and theme switcher.
+## Overview
 
----
+IBuiltThis is a Next.js application that demonstrates user authentication, profile management, and theme customization. The app allows users to sign up, log in, manage their profiles with avatar uploads, and browse content across multiple pages.
 
-## Getting Started
+## Features
 
-First, run the development server:
+- **User Authentication**: Email-based sign-up and sign-in using Supabase Auth
+- **Profile Management**: Users can upload and manage their profile avatars stored in Supabase
+- **Theme Switcher**: Light/dark mode toggle powered by next-themes
+- **Responsive UI**: Built with shadcn/ui components and Tailwind CSS
+- **Form Validation**: Client-side validation using Zod and React Hook Form
+- **Multiple Pages**: Home, About, Profile, Sign In, and Sign Up pages
+- **Navigation**: Persistent navbar and footer across all pages
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technology Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend**: Next.js 16 with App Router, React 19, TypeScript
+- **Authentication & Backend**: Supabase (Auth & Storage)
+- **UI Components**: shadcn/ui with Radix UI primitives
+- **Styling**: Tailwind CSS
+- **Forms**: React Hook Form with Zod validation
+- **Theme**: next-themes for light/dark mode
+- **Icons**: Lucide React
+- **Notifications**: react-hot-toast
